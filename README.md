@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# Gradi App Test
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Repositorio para la prueba de FrontEnd desarrollado con Vue 3 + Vite + Sass
 
-## Recommended IDE Setup
+## Instalación
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Para instalar el repositorio escoja o SSH o HTTPS
+
+```bash
+[SSH]$ git clone git@github.com:MisterGeorge/gradi-app-test.git
+```
+```bash
+[HTTPS]$ git clone https://github.com/MisterGeorge/gradi-app-test.git
+```
+
+Seguido instale las dependecias de Node
+```bash
+$ npm install
+```
+
+Para compilar los recursos ejecute
+
+```bash
+$ npm run dev
+```
