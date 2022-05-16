@@ -1,0 +1,32 @@
+@import 'mixins';
+@import 'colors';
+
+*,
+::after, 
+::before {
+  @include box-sizing(border-box);
+}
+
+.padding-x-5 {
+    @include padding(null, .5rem, null, .5rem);
+}
+
+.container {
+    @include flex-grow(1);
+    position: relative;
+    width: auto;
+    max-width: 1320px;
+    @include margin(0, auto, 0, auto);
+
+    .row {
+      @include flexbox;
+      @include flex-wrap(wrap);
+      @extend .padding-x-5;
+      @include margin( null, null, .5rem, null);
+
+      .col {
+        @include flex(1, 0, 0);
+        width: auto;
+      }
+    }
+}
