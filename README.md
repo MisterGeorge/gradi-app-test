@@ -1,6 +1,6 @@
 # Gradi App Test
 
-Repositorio para la prueba de FrontEnd desarrollado con Vue 3 + Vite + Sass
+Repositorio para la prueba de FrontEnd de Gradiweb desarrollado con Vue 3 + Vite + Sass
 
 ## Instalación
 
