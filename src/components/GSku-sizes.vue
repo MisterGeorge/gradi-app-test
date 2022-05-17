@@ -84,4 +84,16 @@
       }
     }
   }
+
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    .product-sku {
+
+      .sku-list {
+        .sku-item {
+          @include margin(0, .2em, .2em, .2em);
+        }
+      }
+    }
+  }
 </style>

@@ -148,4 +148,14 @@
     @include border-radius (0);
     @include border('', thin, solid, $bg-light);
   }
+
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    .modal-backdrop {
+       .modal {
+         width: 95%;
+         @include margin(0, auto, 0, auto);
+       }
+    }
+  }
 </style>

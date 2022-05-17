@@ -61,4 +61,11 @@
       }
     }
   }
+
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    .breadcrumb {
+      font-size: .85rem;
+    }
+  }
 </style>
